@@ -1,0 +1,32 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "prod_start": "pm2 start index.js",
+    "prod_stop": "pm2 stop index.js",
+    "prod_restart": "pm2 restart index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+YOUR_GIT_REPO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "YOUR_GIT_REPO/issues"
+  },
+  "homepage": "YOUR_GIT_REPO#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pm2": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
