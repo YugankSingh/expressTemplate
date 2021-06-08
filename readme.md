@@ -29,14 +29,20 @@ Then run these commands
 (you must me be in root(myFolder))
 
 - run these if you want to initialize git
-	- git init
-	- git remote add origin YOUR_REPOSITORY_URL_HERE.git
-	- git branch -M main
-	- git add .
-	- git commit -m 'initialize project'
-	- git push -u origin main
+
+```shell
+	git init
+	git remote add origin YOUR_REPOSITORY_URL_HERE.git
+	git branch -M main
+	git add .
+	git commit -m 'initialize project'
+	git push -u origin main
+```
 - and you have to run this one
-  - npm i
+
+```shell
+ npm i
+```
 
 And Done,
 You Did a greate job
