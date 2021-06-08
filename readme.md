@@ -33,9 +33,9 @@ Then run these commands
 ```shell
 git init
 git remote add origin YOUR_REPOSITORY_URL_HERE.git
-git branch -M main
 git add .
 git commit -m 'initialize project'
+git branch -M main
 git push -u origin main
 ```
 - and you have to run this one
