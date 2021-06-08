@@ -42,6 +42,7 @@ git push -u origin main
 
 ```shell
 npm i
+npm i -D
 ```
 
 And Done,
