@@ -28,6 +28,13 @@ Change these Fields in package.json
 Then run these commands
 (you must me be in root(myFolder))
 
+- and you have to run this one
+
+```shell
+npm i
+npm i -D
+```
+
 - run these if you want to initialize git
 
 ```shell
@@ -37,12 +44,6 @@ git add .
 git commit -m 'initialize project'
 git branch -M main
 git push -u origin main
-```
-- and you have to run this one
-
-```shell
-npm i
-npm i -D
 ```
 
 And Done,
