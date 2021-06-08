@@ -31,17 +31,17 @@ Then run these commands
 - run these if you want to initialize git
 
 ```shell
-	git init
-	git remote add origin YOUR_REPOSITORY_URL_HERE.git
-	git branch -M main
-	git add .
-	git commit -m 'initialize project'
-	git push -u origin main
+git init
+git remote add origin YOUR_REPOSITORY_URL_HERE.git
+git branch -M main
+git add .
+git commit -m 'initialize project'
+git push -u origin main
 ```
 - and you have to run this one
 
 ```shell
- npm i
+npm i
 ```
 
 And Done,
